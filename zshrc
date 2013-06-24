@@ -43,7 +43,8 @@ if [ -n "$INSIDE_EMACS" ]; then
   print -P "\033AnSiTu %n"
   print -P "\033AnSiTc %d"
 fi
-export JAVA_HOME=/usr/lib/jvm/java-1.6.0-openjdk-amd64
+# export JAVA_HOME=/usr/lib/jvm/java-1.6.0-openjdk-amd64
+
 alias zeus='nocorrect zeus'
 alias tmux="TERM=screen-256color-bce tmux"
 export EDITOR=vim
