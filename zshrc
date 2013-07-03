@@ -50,3 +50,6 @@ alias tmux="TERM=screen-256color-bce tmux"
 export EDITOR=vim
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
 export DISABLE_AUTO_TITLE=true
+
+# git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
+source ~/.autoenv/activate.sh
