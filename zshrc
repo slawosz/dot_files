@@ -38,6 +38,8 @@ source $ZSH/oh-my-zsh.sh
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:/usr/local/sbin # Needed on mac
+PATH=$PATH:$HOME/bin # local
+PATH=$PATH:$HOME/gotools/bin # gotools I use; need to do GOPATH
 
 if [ -n "$INSIDE_EMACS" ]; then
   chpwd() { print -P "\033AnSiTc %d" }
