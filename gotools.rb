@@ -6,7 +6,8 @@ tools = [
   "github.com/golang/lint/golint",
   "github.com/kisielk/errcheck",
   "github.com/jstemmer/gotags",
-  "code.google.com/p/go.tools/cmd/godoc"
+  "code.google.com/p/go.tools/cmd/godoc",
+  "code.google.com/p/go.tools"
 ]
 
 puts `mkdir gotools`

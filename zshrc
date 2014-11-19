@@ -29,7 +29,7 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git bundler)
+plugins=(git bundler golang)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -50,6 +50,7 @@ fi
 
 alias zeus='nocorrect zeus'
 alias tmux="TERM=screen-256color-bce tmux"
+alias gopath="export GOPATH=\$(pwd)"
 export EDITOR=vim
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
 export DISABLE_AUTO_TITLE=true
