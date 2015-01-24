@@ -13,5 +13,6 @@ tools = [
 puts `mkdir gotools`
 
 tools.each do |tool|
-  puts `GOPATH=~/gotools go get #{tool}`
+  puts "Installing #{tool}"
+  `GOPATH=~/gotools go get #{tool}`
 end
