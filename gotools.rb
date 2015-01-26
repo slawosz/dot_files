@@ -7,7 +7,10 @@ tools = [
   "github.com/kisielk/errcheck",
   "github.com/jstemmer/gotags",
   "code.google.com/p/go.tools/cmd/godoc",
-  "code.google.com/p/go.tools"
+  "code.google.com/p/go.tools",
+  "golang.org/x/tools/cmd/godoc",
+  "golang.org/x/tools",
+  "golang.org/x/tools/refactor/rename",
 ]
 
 puts `mkdir gotools`
